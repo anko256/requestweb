@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display Input</title>
+</head>
+<body>
+    <h1>Request</h1>
+    <div>
+        <h2>Request Header</h2>
+        <p>{{d}}</p>
+        <h2>Request Body</h2>
+        <p>{{e}}</p>
+    </div>
+    <h1>Response</h1>
+    <div>
+        <h2>Response Header</h2>
+        <p>{{c}}</p>
+        <h2>Response Body</h2>
+        <p>{{input_data}}</p>
+        <p>ステータスコード:{{b}}</p>
+
+        <p>エラー:{{a}}</p>
+    </div>
+    <form action="/" method="post">
+        <div class="button">
+          <button type="submit">戻る</button>
+        </div>
+    </form>
+</body>
+</html>
